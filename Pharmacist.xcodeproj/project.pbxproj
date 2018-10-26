@@ -1,0 +1,1295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A7B6C022180830500E2DFB5 /* OrderItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7B6BF42180830400E2DFB5 /* OrderItemsTableViewCell.xib */; };
+		3A7B6C032180830500E2DFB5 /* OrderItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B6BF52180830400E2DFB5 /* OrderItemsTableViewCell.swift */; };
+		3A7B6C082180830500E2DFB5 /* DeliveryAddressTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B6BFD2180830400E2DFB5 /* DeliveryAddressTableCell.swift */; };
+		3A7B6C092180830500E2DFB5 /* DeliveryAddressTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7B6BFE2180830400E2DFB5 /* DeliveryAddressTableCell.xib */; };
+		3A7B6C0A2180830500E2DFB5 /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7B6C002180830400E2DFB5 /* AddressTableViewCell.xib */; };
+		3A7B6C0B2180830500E2DFB5 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B6C012180830400E2DFB5 /* AddressTableViewCell.swift */; };
+		3A7B6C0E2180833100E2DFB5 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B6C0C2180833000E2DFB5 /* NotificationTableViewCell.swift */; };
+		3A7B6C0F2180833100E2DFB5 /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7B6C0D2180833100E2DFB5 /* NotificationTableViewCell.xib */; };
+		3AAF9C0621817BAE003EE691 /* ProductsPharmacistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF9C0421817BAE003EE691 /* ProductsPharmacistTableViewCell.swift */; };
+		3AAF9C0721817BAE003EE691 /* ProductsPharmacistTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF9C0521817BAE003EE691 /* ProductsPharmacistTableViewCell.xib */; };
+		3AAF9C0B21817BFF003EE691 /* SellerOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAF9C0921817BFF003EE691 /* SellerOrdersTableViewCell.swift */; };
+		3AAF9C0C21817BFF003EE691 /* SellerOrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAF9C0A21817BFF003EE691 /* SellerOrdersTableViewCell.xib */; };
+		5F198525C1988A2A63920456 /* Pods_PharmacistTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C476E92FCD45A5F7ABDFD /* Pods_PharmacistTests.framework */; };
+		8F0233DB62C544EF009796BC /* Pods_Pharmacist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A0C14C93D7309C7B5583A4 /* Pods_Pharmacist.framework */; };
+		CDAC34C7217742630052A55C /* TopSellingProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34BF217742620052A55C /* TopSellingProductsTableViewCell.swift */; };
+		CDAC34C8217742630052A55C /* TopSellingProductsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAC34C0217742620052A55C /* TopSellingProductsTableViewCell.xib */; };
+		CDAC34C9217742630052A55C /* TransactionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34C2217742620052A55C /* TransactionListTableViewCell.swift */; };
+		CDAC34CA217742630052A55C /* TransactionListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAC34C3217742620052A55C /* TransactionListTableViewCell.xib */; };
+		CDBE53932175D72E0068BD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53912175D72E0068BD12 /* Main.storyboard */; };
+		CDBE53952175D7320068BD12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53942175D7320068BD12 /* Assets.xcassets */; };
+		CDBE53982175D7320068BD12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53962175D7320068BD12 /* LaunchScreen.storyboard */; };
+		CDBE53A32175D7330068BD12 /* PharmacistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53A22175D7330068BD12 /* PharmacistTests.swift */; };
+		CDBE53AE2175D7330068BD12 /* PharmacistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53AD2175D7330068BD12 /* PharmacistUITests.swift */; };
+		CDBE53FE2175D9580068BD12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53CD2175D9560068BD12 /* Constants.swift */; };
+		CDBE53FF2175D9580068BD12 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53CE2175D9560068BD12 /* Extension.swift */; };
+		CDBE54002175D9580068BD12 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D02175D9560068BD12 /* UIView.swift */; };
+		CDBE54012175D9580068BD12 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D12175D9560068BD12 /* UIColor.swift */; };
+		CDBE54022175D9580068BD12 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D22175D9560068BD12 /* UITableViewExtension.swift */; };
+		CDBE54032175D9580068BD12 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D32175D9560068BD12 /* CosmosDistrib.swift */; };
+		CDBE54042175D9580068BD12 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D42175D9560068BD12 /* String.swift */; };
+		CDBE54052175D9580068BD12 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D52175D9560068BD12 /* UIImage.swift */; };
+		CDBE54062175D9580068BD12 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D62175D9560068BD12 /* UIViewController.swift */; };
+		CDBE54072175D9580068BD12 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D72175D9560068BD12 /* UIImageView.swift */; };
+		CDBE54082175D9580068BD12 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53D82175D9560068BD12 /* UIApplication.swift */; };
+		CDBE54092175D9580068BD12 /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53DB2175D9570068BD12 /* fa-solid-900.ttf */; };
+		CDBE540A2175D9580068BD12 /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53DC2175D9570068BD12 /* fa-regular-400.ttf */; };
+		CDBE540B2175D9580068BD12 /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53DD2175D9570068BD12 /* fa-brands-400.ttf */; };
+		CDBE540C2175D9580068BD12 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53DF2175D9570068BD12 /* OpenSans-Semibold.ttf */; };
+		CDBE540D2175D9580068BD12 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E02175D9570068BD12 /* OpenSans-Light.ttf */; };
+		CDBE540E2175D9580068BD12 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E12175D9570068BD12 /* OpenSans-Italic.ttf */; };
+		CDBE540F2175D9580068BD12 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E22175D9570068BD12 /* OpenSans-ExtraBold.ttf */; };
+		CDBE54102175D9580068BD12 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E32175D9570068BD12 /* OpenSans-LightItalic.ttf */; };
+		CDBE54112175D9580068BD12 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E42175D9570068BD12 /* OpenSans-Bold.ttf */; };
+		CDBE54122175D9580068BD12 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E52175D9570068BD12 /* OpenSans-SemiboldItalic.ttf */; };
+		CDBE54132175D9580068BD12 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E62175D9570068BD12 /* OpenSans-ExtraBoldItalic.ttf */; };
+		CDBE54142175D9580068BD12 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E72175D9570068BD12 /* OpenSans-Regular.ttf */; };
+		CDBE54152175D9580068BD12 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53E82175D9570068BD12 /* OpenSans-BoldItalic.ttf */; };
+		CDBE54162175D9580068BD12 /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53EA2175D9570068BD12 /* BasicBarChart.swift */; };
+		CDBE54172175D9580068BD12 /* BarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53EB2175D9570068BD12 /* BarEntry.swift */; };
+		CDBE54182175D9580068BD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53ED2175D9570068BD12 /* AppDelegate.swift */; };
+		CDBE54192175D9580068BD12 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53EF2175D9570068BD12 /* SlideMenuController.swift */; };
+		CDBE541A2175D9580068BD12 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53F02175D9570068BD12 /* LeftViewController.swift */; };
+		CDBE541B2175D9580068BD12 /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDBE53F22175D9570068BD12 /* ImageHeaderView.xib */; };
+		CDBE541C2175D9580068BD12 /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53F32175D9570068BD12 /* ImageHeaderView.swift */; };
+		CDBE541D2175D9580068BD12 /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53F42175D9570068BD12 /* ExSlideMenuController.swift */; };
+		CDBE541E2175D9580068BD12 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53F62175D9570068BD12 /* HeaderCell.swift */; };
+		CDBE541F2175D9580068BD12 /* SubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53F72175D9570068BD12 /* SubCell.swift */; };
+		CDBE54202175D9580068BD12 /* DesignableShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53F92175D9570068BD12 /* DesignableShadowButton.swift */; };
+		CDBE54212175D9580068BD12 /* DesignableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53FA2175D9570068BD12 /* DesignableImage.swift */; };
+		CDBE54222175D9580068BD12 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53FB2175D9570068BD12 /* DesignableButton.swift */; };
+		CDBE54232175D9580068BD12 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53FC2175D9570068BD12 /* DesignableView.swift */; };
+		CDBE54242175D9580068BD12 /* DesignableShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE53FD2175D9570068BD12 /* DesignableShadowView.swift */; };
+		CDBE54302175E60F0068BD12 /* PharmacistItemOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54252175E60E0068BD12 /* PharmacistItemOrderViewController.swift */; };
+		CDBE54312175E60F0068BD12 /* PharmacistShipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54262175E60E0068BD12 /* PharmacistShipmentViewController.swift */; };
+		CDBE54322175E60F0068BD12 /* SellerOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54272175E60E0068BD12 /* SellerOrderViewController.swift */; };
+		CDBE54332175E60F0068BD12 /* ProductsPharmacistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54282175E60E0068BD12 /* ProductsPharmacistViewController.swift */; };
+		CDBE54342175E60F0068BD12 /* TransactionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54292175E60E0068BD12 /* TransactionListViewController.swift */; };
+		CDBE54352175E60F0068BD12 /* TransationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE542A2175E60E0068BD12 /* TransationDetailViewController.swift */; };
+		CDBE54362175E60F0068BD12 /* PharmacistOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE542B2175E60F0068BD12 /* PharmacistOrderDetailsViewController.swift */; };
+		CDBE54372175E60F0068BD12 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE542C2175E60F0068BD12 /* PageViewController.swift */; };
+		CDBE54382175E60F0068BD12 /* PharmacistDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE542D2175E60F0068BD12 /* PharmacistDashboardViewController.swift */; };
+		CDBE54392175E60F0068BD12 /* OrderDetailsProcessingItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE542E2175E60F0068BD12 /* OrderDetailsProcessingItemsViewController.swift */; };
+		CDBE543A2175E60F0068BD12 /* PharmacistInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE542F2175E60F0068BD12 /* PharmacistInvoiceViewController.swift */; };
+		CDBE543C2175E6200068BD12 /* AddDeliveryBoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE543B2175E6200068BD12 /* AddDeliveryBoyViewController.swift */; };
+		CDBE54402175E7110068BD12 /* SignUpDeliveryBoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE543D2175E7100068BD12 /* SignUpDeliveryBoyViewController.swift */; };
+		CDBE54412175E7110068BD12 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE543E2175E7110068BD12 /* SignUpViewController.swift */; };
+		CDBE54422175E7110068BD12 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE543F2175E7110068BD12 /* SignInViewController.swift */; };
+		CDBE54462175EA870068BD12 /* VerifyOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54432175EA860068BD12 /* VerifyOTPViewController.swift */; };
+		CDBE54472175EA870068BD12 /* ForgotPasswordFromMobileNoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54442175EA860068BD12 /* ForgotPasswordFromMobileNoViewController.swift */; };
+		CDBE54482175EA870068BD12 /* SetNewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54452175EA860068BD12 /* SetNewPasswordViewController.swift */; };
+		CDBE544A2175EB460068BD12 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54492175EB460068BD12 /* NotificationViewController.swift */; };
+		CDBE54D22175FD480068BD12 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54CD2175FD480068BD12 /* GoogleSignInDependencies.framework */; };
+		CDBE54D32175FD480068BD12 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54CE2175FD480068BD12 /* GoogleAppUtilities.framework */; };
+		CDBE54D42175FD480068BD12 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDBE54CF2175FD480068BD12 /* GoogleSignIn.bundle */; };
+		CDBE54D52175FD480068BD12 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54D02175FD480068BD12 /* GoogleSignIn.framework */; };
+		CDBE54D62175FD480068BD12 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54D12175FD480068BD12 /* GoogleSymbolUtilities.framework */; };
+		CDBE54DB2176012A0068BD12 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54D8217601290068BD12 /* FBSDKCoreKit.framework */; };
+		CDBE54DC2176012A0068BD12 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54D9217601290068BD12 /* FBSDKLoginKit.framework */; };
+		CDBE54DD2176012A0068BD12 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE54DA2176012A0068BD12 /* Bolts.framework */; };
+		CDBE54E1217603740068BD12 /* SignUpModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE54E0217603740068BD12 /* SignUpModelClass.swift */; };
+		E971566DE8715CCB96F5F62E /* Pods_PharmacistUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 132F1D50321287591184A535 /* Pods_PharmacistUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDBE539F2175D7330068BD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBE53822175D72D0068BD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBE53892175D72E0068BD12;
+			remoteInfo = Pharmacist;
+		};
+		CDBE53AA2175D7330068BD12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDBE53822175D72D0068BD12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDBE53892175D72E0068BD12;
+			remoteInfo = Pharmacist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		132F1D50321287591184A535 /* Pods_PharmacistUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmacistUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A0C14C93D7309C7B5583A4 /* Pods_Pharmacist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pharmacist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7B6BF42180830400E2DFB5 /* OrderItemsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderItemsTableViewCell.xib; sourceTree = "<group>"; };
+		3A7B6BF52180830400E2DFB5 /* OrderItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItemsTableViewCell.swift; sourceTree = "<group>"; };
+		3A7B6BFD2180830400E2DFB5 /* DeliveryAddressTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryAddressTableCell.swift; sourceTree = "<group>"; };
+		3A7B6BFE2180830400E2DFB5 /* DeliveryAddressTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliveryAddressTableCell.xib; sourceTree = "<group>"; };
+		3A7B6C002180830400E2DFB5 /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		3A7B6C012180830400E2DFB5 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		3A7B6C0C2180833000E2DFB5 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationTableViewCell.swift; path = ../../../../../../.Trash/NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		3A7B6C0D2180833100E2DFB5 /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationTableViewCell.xib; path = ../../../../../../.Trash/NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		3AAF9C0421817BAE003EE691 /* ProductsPharmacistTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPharmacistTableViewCell.swift; sourceTree = "<group>"; };
+		3AAF9C0521817BAE003EE691 /* ProductsPharmacistTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsPharmacistTableViewCell.xib; sourceTree = "<group>"; };
+		3AAF9C0921817BFF003EE691 /* SellerOrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellerOrdersTableViewCell.swift; sourceTree = "<group>"; };
+		3AAF9C0A21817BFF003EE691 /* SellerOrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SellerOrdersTableViewCell.xib; sourceTree = "<group>"; };
+		66531C11FA9ACB665ACD27E9 /* Pods-Pharmacist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharmacist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pharmacist/Pods-Pharmacist.debug.xcconfig"; sourceTree = "<group>"; };
+		679C11FAC876C471409CF150 /* Pods-PharmacistUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacistUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PharmacistUITests/Pods-PharmacistUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A619F80DAA22E5EDEF67E50 /* Pods-Pharmacist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pharmacist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pharmacist/Pods-Pharmacist.release.xcconfig"; sourceTree = "<group>"; };
+		9B875A7DE6029A0F8710A6FD /* Pods-PharmacistUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacistUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PharmacistUITests/Pods-PharmacistUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C93F61D06CF9AA9A93D0AD /* Pods-PharmacistTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacistTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PharmacistTests/Pods-PharmacistTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B72EDDD1DA638F6A7C4EA18C /* Pods-PharmacistTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PharmacistTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PharmacistTests/Pods-PharmacistTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF1C476E92FCD45A5F7ABDFD /* Pods_PharmacistTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PharmacistTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDAC34BF217742620052A55C /* TopSellingProductsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopSellingProductsTableViewCell.swift; sourceTree = "<group>"; };
+		CDAC34C0217742620052A55C /* TopSellingProductsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSellingProductsTableViewCell.xib; sourceTree = "<group>"; };
+		CDAC34C2217742620052A55C /* TransactionListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListTableViewCell.swift; sourceTree = "<group>"; };
+		CDAC34C3217742620052A55C /* TransactionListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionListTableViewCell.xib; sourceTree = "<group>"; };
+		CDBE538A2175D72E0068BD12 /* Pharmacist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pharmacist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBE53922175D72E0068BD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDBE53942175D7320068BD12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDBE53972175D7320068BD12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDBE53992175D7320068BD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBE539E2175D7330068BD12 /* PharmacistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmacistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBE53A22175D7330068BD12 /* PharmacistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacistTests.swift; sourceTree = "<group>"; };
+		CDBE53A42175D7330068BD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBE53A92175D7330068BD12 /* PharmacistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PharmacistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBE53AD2175D7330068BD12 /* PharmacistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacistUITests.swift; sourceTree = "<group>"; };
+		CDBE53AF2175D7330068BD12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBE53CD2175D9560068BD12 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CDBE53CE2175D9560068BD12 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CDBE53D02175D9560068BD12 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CDBE53D12175D9560068BD12 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CDBE53D22175D9560068BD12 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		CDBE53D32175D9560068BD12 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		CDBE53D42175D9560068BD12 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CDBE53D52175D9560068BD12 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		CDBE53D62175D9560068BD12 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CDBE53D72175D9560068BD12 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		CDBE53D82175D9560068BD12 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		CDBE53DB2175D9570068BD12 /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
+		CDBE53DC2175D9570068BD12 /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
+		CDBE53DD2175D9570068BD12 /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
+		CDBE53DF2175D9570068BD12 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		CDBE53E02175D9570068BD12 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		CDBE53E12175D9570068BD12 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		CDBE53E22175D9570068BD12 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CDBE53E32175D9570068BD12 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CDBE53E42175D9570068BD12 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		CDBE53E52175D9570068BD12 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		CDBE53E62175D9570068BD12 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CDBE53E72175D9570068BD12 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		CDBE53E82175D9570068BD12 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CDBE53EA2175D9570068BD12 /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		CDBE53EB2175D9570068BD12 /* BarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntry.swift; sourceTree = "<group>"; };
+		CDBE53ED2175D9570068BD12 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDBE53EF2175D9570068BD12 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		CDBE53F02175D9570068BD12 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		CDBE53F22175D9570068BD12 /* ImageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
+		CDBE53F32175D9570068BD12 /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		CDBE53F42175D9570068BD12 /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		CDBE53F62175D9570068BD12 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CDBE53F72175D9570068BD12 /* SubCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCell.swift; sourceTree = "<group>"; };
+		CDBE53F92175D9570068BD12 /* DesignableShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableShadowButton.swift; sourceTree = "<group>"; };
+		CDBE53FA2175D9570068BD12 /* DesignableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImage.swift; sourceTree = "<group>"; };
+		CDBE53FB2175D9570068BD12 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CDBE53FC2175D9570068BD12 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CDBE53FD2175D9570068BD12 /* DesignableShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableShadowView.swift; sourceTree = "<group>"; };
+		CDBE54252175E60E0068BD12 /* PharmacistItemOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacistItemOrderViewController.swift; sourceTree = "<group>"; };
+		CDBE54262175E60E0068BD12 /* PharmacistShipmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacistShipmentViewController.swift; sourceTree = "<group>"; };
+		CDBE54272175E60E0068BD12 /* SellerOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellerOrderViewController.swift; sourceTree = "<group>"; };
+		CDBE54282175E60E0068BD12 /* ProductsPharmacistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsPharmacistViewController.swift; sourceTree = "<group>"; };
+		CDBE54292175E60E0068BD12 /* TransactionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionListViewController.swift; sourceTree = "<group>"; };
+		CDBE542A2175E60E0068BD12 /* TransationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransationDetailViewController.swift; sourceTree = "<group>"; };
+		CDBE542B2175E60F0068BD12 /* PharmacistOrderDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacistOrderDetailsViewController.swift; sourceTree = "<group>"; };
+		CDBE542C2175E60F0068BD12 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CDBE542D2175E60F0068BD12 /* PharmacistDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacistDashboardViewController.swift; sourceTree = "<group>"; };
+		CDBE542E2175E60F0068BD12 /* OrderDetailsProcessingItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsProcessingItemsViewController.swift; sourceTree = "<group>"; };
+		CDBE542F2175E60F0068BD12 /* PharmacistInvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacistInvoiceViewController.swift; sourceTree = "<group>"; };
+		CDBE543B2175E6200068BD12 /* AddDeliveryBoyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeliveryBoyViewController.swift; sourceTree = "<group>"; };
+		CDBE543D2175E7100068BD12 /* SignUpDeliveryBoyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpDeliveryBoyViewController.swift; sourceTree = "<group>"; };
+		CDBE543E2175E7110068BD12 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		CDBE543F2175E7110068BD12 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CDBE54432175EA860068BD12 /* VerifyOTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOTPViewController.swift; sourceTree = "<group>"; };
+		CDBE54442175EA860068BD12 /* ForgotPasswordFromMobileNoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordFromMobileNoViewController.swift; sourceTree = "<group>"; };
+		CDBE54452175EA860068BD12 /* SetNewPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetNewPasswordViewController.swift; sourceTree = "<group>"; };
+		CDBE54492175EB460068BD12 /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CDBE54CD2175FD480068BD12 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		CDBE54CE2175FD480068BD12 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		CDBE54CF2175FD480068BD12 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		CDBE54D02175FD480068BD12 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		CDBE54D12175FD480068BD12 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		CDBE54D8217601290068BD12 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CDBE54D9217601290068BD12 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CDBE54DA2176012A0068BD12 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CDBE54E0217603740068BD12 /* SignUpModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpModelClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDBE53872175D72E0068BD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBE54D32175FD480068BD12 /* GoogleAppUtilities.framework in Frameworks */,
+				CDBE54DB2176012A0068BD12 /* FBSDKCoreKit.framework in Frameworks */,
+				CDBE54D22175FD480068BD12 /* GoogleSignInDependencies.framework in Frameworks */,
+				CDBE54D62175FD480068BD12 /* GoogleSymbolUtilities.framework in Frameworks */,
+				CDBE54DC2176012A0068BD12 /* FBSDKLoginKit.framework in Frameworks */,
+				8F0233DB62C544EF009796BC /* Pods_Pharmacist.framework in Frameworks */,
+				CDBE54D52175FD480068BD12 /* GoogleSignIn.framework in Frameworks */,
+				CDBE54DD2176012A0068BD12 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE539B2175D7330068BD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F198525C1988A2A63920456 /* Pods_PharmacistTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE53A62175D7330068BD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E971566DE8715CCB96F5F62E /* Pods_PharmacistUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A7B6BF32180830400E2DFB5 /* OrderItemsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B6BF52180830400E2DFB5 /* OrderItemsTableViewCell.swift */,
+				3A7B6BF42180830400E2DFB5 /* OrderItemsTableViewCell.xib */,
+			);
+			name = OrderItemsTableViewCell;
+			path = Pharmacist/CustomeCells/OrderItemsTableViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		3A7B6BF62180830400E2DFB5 /* NotificationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B6C0C2180833000E2DFB5 /* NotificationTableViewCell.swift */,
+				3A7B6C0D2180833100E2DFB5 /* NotificationTableViewCell.xib */,
+			);
+			name = NotificationTableViewCell;
+			path = Pharmacist/CustomeCells/NotificationTableViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		3A7B6BFC2180830400E2DFB5 /* Delivery address cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B6BFD2180830400E2DFB5 /* DeliveryAddressTableCell.swift */,
+				3A7B6BFE2180830400E2DFB5 /* DeliveryAddressTableCell.xib */,
+			);
+			name = "Delivery address cell";
+			path = "Pharmacist/CustomeCells/Delivery address cell";
+			sourceTree = SOURCE_ROOT;
+		};
+		3A7B6BFF2180830400E2DFB5 /* Address Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B6C002180830400E2DFB5 /* AddressTableViewCell.xib */,
+				3A7B6C012180830400E2DFB5 /* AddressTableViewCell.swift */,
+			);
+			name = "Address Cell";
+			path = "Pharmacist/CustomeCells/Address Cell";
+			sourceTree = SOURCE_ROOT;
+		};
+		3AAF9C0321817BAE003EE691 /* ProductsPharmacistTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF9C0421817BAE003EE691 /* ProductsPharmacistTableViewCell.swift */,
+				3AAF9C0521817BAE003EE691 /* ProductsPharmacistTableViewCell.xib */,
+			);
+			name = ProductsPharmacistTableViewCell;
+			path = Pharmacist/CustomeCells/ProductsPharmacistTableViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		3AAF9C0821817BCA003EE691 /* SellerOrdersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF9C0921817BFF003EE691 /* SellerOrdersTableViewCell.swift */,
+				3AAF9C0A21817BFF003EE691 /* SellerOrdersTableViewCell.xib */,
+			);
+			path = SellerOrdersTableViewCell;
+			sourceTree = "<group>";
+		};
+		3D9951EE2E046C49BB38BEFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17A0C14C93D7309C7B5583A4 /* Pods_Pharmacist.framework */,
+				BF1C476E92FCD45A5F7ABDFD /* Pods_PharmacistTests.framework */,
+				132F1D50321287591184A535 /* Pods_PharmacistUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA774D28AF11A614D958394 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66531C11FA9ACB665ACD27E9 /* Pods-Pharmacist.debug.xcconfig */,
+				6A619F80DAA22E5EDEF67E50 /* Pods-Pharmacist.release.xcconfig */,
+				A6C93F61D06CF9AA9A93D0AD /* Pods-PharmacistTests.debug.xcconfig */,
+				B72EDDD1DA638F6A7C4EA18C /* Pods-PharmacistTests.release.xcconfig */,
+				9B875A7DE6029A0F8710A6FD /* Pods-PharmacistUITests.debug.xcconfig */,
+				679C11FAC876C471409CF150 /* Pods-PharmacistUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CDAC34BE217742620052A55C /* TopSellingProductsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC34BF217742620052A55C /* TopSellingProductsTableViewCell.swift */,
+				CDAC34C0217742620052A55C /* TopSellingProductsTableViewCell.xib */,
+			);
+			name = TopSellingProductsTableViewCell;
+			path = Pharmacist/CustomeCells/TopSellingProductsTableViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		CDAC34C1217742620052A55C /* TransactionListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC34C2217742620052A55C /* TransactionListTableViewCell.swift */,
+				CDAC34C3217742620052A55C /* TransactionListTableViewCell.xib */,
+			);
+			name = TransactionListTableViewCell;
+			path = Pharmacist/CustomeCells/TransactionListTableViewCell;
+			sourceTree = SOURCE_ROOT;
+		};
+		CDBE53812175D72D0068BD12 = {
+			isa = PBXGroup;
+			children = (
+				CDBE538C2175D72E0068BD12 /* Pharmacist */,
+				CDBE53A12175D7330068BD12 /* PharmacistTests */,
+				CDBE53AC2175D7330068BD12 /* PharmacistUITests */,
+				CDBE538B2175D72E0068BD12 /* Products */,
+				8FA774D28AF11A614D958394 /* Pods */,
+				3D9951EE2E046C49BB38BEFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDBE538B2175D72E0068BD12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE538A2175D72E0068BD12 /* Pharmacist.app */,
+				CDBE539E2175D7330068BD12 /* PharmacistTests.xctest */,
+				CDBE53A92175D7330068BD12 /* PharmacistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDBE538C2175D72E0068BD12 /* Pharmacist */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE54DE217603520068BD12 /* Models Class */,
+				CDBE54D72175FD540068BD12 /* FBSDK */,
+				CDBE54CC2175FD290068BD12 /* GoogleSDK */,
+				CDBE544D2175EC1C0068BD12 /* CustomeCells */,
+				CDBE53EC2175D9570068BD12 /* AppDelegate */,
+				CDBE53E92175D9570068BD12 /* Charts */,
+				CDBE53CC2175D9560068BD12 /* CommonFiles */,
+				CDBE53CF2175D9560068BD12 /* ExtensionFiles */,
+				CDBE53D92175D9570068BD12 /* Fonts */,
+				CDBE53F82175D9570068BD12 /* IB Designable */,
+				CDBE53EE2175D9570068BD12 /* SlideMenu */,
+				CDBE53CB2175D9560068BD12 /* UIViewControllers */,
+				CDBE53912175D72E0068BD12 /* Main.storyboard */,
+				CDBE53942175D7320068BD12 /* Assets.xcassets */,
+				CDBE53962175D7320068BD12 /* LaunchScreen.storyboard */,
+				CDBE53992175D7320068BD12 /* Info.plist */,
+			);
+			path = Pharmacist;
+			sourceTree = "<group>";
+		};
+		CDBE53A12175D7330068BD12 /* PharmacistTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53A22175D7330068BD12 /* PharmacistTests.swift */,
+				CDBE53A42175D7330068BD12 /* Info.plist */,
+			);
+			path = PharmacistTests;
+			sourceTree = "<group>";
+		};
+		CDBE53AC2175D7330068BD12 /* PharmacistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53AD2175D7330068BD12 /* PharmacistUITests.swift */,
+				CDBE53AF2175D7330068BD12 /* Info.plist */,
+			);
+			path = PharmacistUITests;
+			sourceTree = "<group>";
+		};
+		CDBE53CB2175D9560068BD12 /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE54492175EB460068BD12 /* NotificationViewController.swift */,
+				CDBE54432175EA860068BD12 /* VerifyOTPViewController.swift */,
+				CDBE54442175EA860068BD12 /* ForgotPasswordFromMobileNoViewController.swift */,
+				CDBE54452175EA860068BD12 /* SetNewPasswordViewController.swift */,
+				CDBE543F2175E7110068BD12 /* SignInViewController.swift */,
+				CDBE543D2175E7100068BD12 /* SignUpDeliveryBoyViewController.swift */,
+				CDBE543E2175E7110068BD12 /* SignUpViewController.swift */,
+				CDBE543B2175E6200068BD12 /* AddDeliveryBoyViewController.swift */,
+				CDBE542E2175E60F0068BD12 /* OrderDetailsProcessingItemsViewController.swift */,
+				CDBE542C2175E60F0068BD12 /* PageViewController.swift */,
+				CDBE542D2175E60F0068BD12 /* PharmacistDashboardViewController.swift */,
+				CDBE542F2175E60F0068BD12 /* PharmacistInvoiceViewController.swift */,
+				CDBE54252175E60E0068BD12 /* PharmacistItemOrderViewController.swift */,
+				CDBE542B2175E60F0068BD12 /* PharmacistOrderDetailsViewController.swift */,
+				CDBE54262175E60E0068BD12 /* PharmacistShipmentViewController.swift */,
+				CDBE54282175E60E0068BD12 /* ProductsPharmacistViewController.swift */,
+				CDBE54272175E60E0068BD12 /* SellerOrderViewController.swift */,
+				CDBE54292175E60E0068BD12 /* TransactionListViewController.swift */,
+				CDBE542A2175E60E0068BD12 /* TransationDetailViewController.swift */,
+			);
+			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		CDBE53CC2175D9560068BD12 /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53CD2175D9560068BD12 /* Constants.swift */,
+				CDBE53CE2175D9560068BD12 /* Extension.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		CDBE53CF2175D9560068BD12 /* ExtensionFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53D02175D9560068BD12 /* UIView.swift */,
+				CDBE53D12175D9560068BD12 /* UIColor.swift */,
+				CDBE53D22175D9560068BD12 /* UITableViewExtension.swift */,
+				CDBE53D32175D9560068BD12 /* CosmosDistrib.swift */,
+				CDBE53D42175D9560068BD12 /* String.swift */,
+				CDBE53D52175D9560068BD12 /* UIImage.swift */,
+				CDBE53D62175D9560068BD12 /* UIViewController.swift */,
+				CDBE53D72175D9560068BD12 /* UIImageView.swift */,
+				CDBE53D82175D9560068BD12 /* UIApplication.swift */,
+			);
+			path = ExtensionFiles;
+			sourceTree = "<group>";
+		};
+		CDBE53D92175D9570068BD12 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53DA2175D9570068BD12 /* FontAwsome */,
+				CDBE53DE2175D9570068BD12 /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CDBE53DA2175D9570068BD12 /* FontAwsome */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53DB2175D9570068BD12 /* fa-solid-900.ttf */,
+				CDBE53DC2175D9570068BD12 /* fa-regular-400.ttf */,
+				CDBE53DD2175D9570068BD12 /* fa-brands-400.ttf */,
+			);
+			path = FontAwsome;
+			sourceTree = "<group>";
+		};
+		CDBE53DE2175D9570068BD12 /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53DF2175D9570068BD12 /* OpenSans-Semibold.ttf */,
+				CDBE53E02175D9570068BD12 /* OpenSans-Light.ttf */,
+				CDBE53E12175D9570068BD12 /* OpenSans-Italic.ttf */,
+				CDBE53E22175D9570068BD12 /* OpenSans-ExtraBold.ttf */,
+				CDBE53E32175D9570068BD12 /* OpenSans-LightItalic.ttf */,
+				CDBE53E42175D9570068BD12 /* OpenSans-Bold.ttf */,
+				CDBE53E52175D9570068BD12 /* OpenSans-SemiboldItalic.ttf */,
+				CDBE53E62175D9570068BD12 /* OpenSans-ExtraBoldItalic.ttf */,
+				CDBE53E72175D9570068BD12 /* OpenSans-Regular.ttf */,
+				CDBE53E82175D9570068BD12 /* OpenSans-BoldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		CDBE53E92175D9570068BD12 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53EA2175D9570068BD12 /* BasicBarChart.swift */,
+				CDBE53EB2175D9570068BD12 /* BarEntry.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		CDBE53EC2175D9570068BD12 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53ED2175D9570068BD12 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CDBE53EE2175D9570068BD12 /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53F42175D9570068BD12 /* ExSlideMenuController.swift */,
+				CDBE53EF2175D9570068BD12 /* SlideMenuController.swift */,
+				CDBE53F02175D9570068BD12 /* LeftViewController.swift */,
+				CDBE53F12175D9570068BD12 /* ImageViewHeader */,
+				CDBE53F52175D9570068BD12 /* CustomTableCell */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		CDBE53F12175D9570068BD12 /* ImageViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53F22175D9570068BD12 /* ImageHeaderView.xib */,
+				CDBE53F32175D9570068BD12 /* ImageHeaderView.swift */,
+			);
+			path = ImageViewHeader;
+			sourceTree = "<group>";
+		};
+		CDBE53F52175D9570068BD12 /* CustomTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53F62175D9570068BD12 /* HeaderCell.swift */,
+				CDBE53F72175D9570068BD12 /* SubCell.swift */,
+			);
+			path = CustomTableCell;
+			sourceTree = "<group>";
+		};
+		CDBE53F82175D9570068BD12 /* IB Designable */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE53F92175D9570068BD12 /* DesignableShadowButton.swift */,
+				CDBE53FA2175D9570068BD12 /* DesignableImage.swift */,
+				CDBE53FB2175D9570068BD12 /* DesignableButton.swift */,
+				CDBE53FC2175D9570068BD12 /* DesignableView.swift */,
+				CDBE53FD2175D9570068BD12 /* DesignableShadowView.swift */,
+			);
+			path = "IB Designable";
+			sourceTree = "<group>";
+		};
+		CDBE544D2175EC1C0068BD12 /* CustomeCells */ = {
+			isa = PBXGroup;
+			children = (
+				3AAF9C0821817BCA003EE691 /* SellerOrdersTableViewCell */,
+				3AAF9C0321817BAE003EE691 /* ProductsPharmacistTableViewCell */,
+				3A7B6BFF2180830400E2DFB5 /* Address Cell */,
+				3A7B6BFC2180830400E2DFB5 /* Delivery address cell */,
+				3A7B6BF62180830400E2DFB5 /* NotificationTableViewCell */,
+				3A7B6BF32180830400E2DFB5 /* OrderItemsTableViewCell */,
+				CDAC34BE217742620052A55C /* TopSellingProductsTableViewCell */,
+				CDAC34C1217742620052A55C /* TransactionListTableViewCell */,
+			);
+			name = CustomeCells;
+			path = ../../../MedicoBox/MedicoBox_IOS/MedicoBox/CustomeCells;
+			sourceTree = "<group>";
+		};
+		CDBE54CC2175FD290068BD12 /* GoogleSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE54CE2175FD480068BD12 /* GoogleAppUtilities.framework */,
+				CDBE54CF2175FD480068BD12 /* GoogleSignIn.bundle */,
+				CDBE54D02175FD480068BD12 /* GoogleSignIn.framework */,
+				CDBE54CD2175FD480068BD12 /* GoogleSignInDependencies.framework */,
+				CDBE54D12175FD480068BD12 /* GoogleSymbolUtilities.framework */,
+			);
+			path = GoogleSDK;
+			sourceTree = "<group>";
+		};
+		CDBE54D72175FD540068BD12 /* FBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE54DA2176012A0068BD12 /* Bolts.framework */,
+				CDBE54D8217601290068BD12 /* FBSDKCoreKit.framework */,
+				CDBE54D9217601290068BD12 /* FBSDKLoginKit.framework */,
+			);
+			path = FBSDK;
+			sourceTree = "<group>";
+		};
+		CDBE54DE217603520068BD12 /* Models Class */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE54DF217603690068BD12 /* SignUpModelClass */,
+			);
+			path = "Models Class";
+			sourceTree = "<group>";
+		};
+		CDBE54DF217603690068BD12 /* SignUpModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE54E0217603740068BD12 /* SignUpModelClass.swift */,
+			);
+			path = SignUpModelClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDBE53892175D72E0068BD12 /* Pharmacist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBE53B22175D7330068BD12 /* Build configuration list for PBXNativeTarget "Pharmacist" */;
+			buildPhases = (
+				8C7A044BC63A58173741F1BB /* [CP] Check Pods Manifest.lock */,
+				CDBE53862175D72E0068BD12 /* Sources */,
+				CDBE53872175D72E0068BD12 /* Frameworks */,
+				CDBE53882175D72E0068BD12 /* Resources */,
+				85CDAB80053BE4DAC448AC25 /* [CP] Embed Pods Frameworks */,
+				95CA48DCD8F2F254AD929595 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pharmacist;
+			productName = Pharmacist;
+			productReference = CDBE538A2175D72E0068BD12 /* Pharmacist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDBE539D2175D7330068BD12 /* PharmacistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBE53B52175D7330068BD12 /* Build configuration list for PBXNativeTarget "PharmacistTests" */;
+			buildPhases = (
+				442076037D116365205A20FE /* [CP] Check Pods Manifest.lock */,
+				CDBE539A2175D7330068BD12 /* Sources */,
+				CDBE539B2175D7330068BD12 /* Frameworks */,
+				CDBE539C2175D7330068BD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBE53A02175D7330068BD12 /* PBXTargetDependency */,
+			);
+			name = PharmacistTests;
+			productName = PharmacistTests;
+			productReference = CDBE539E2175D7330068BD12 /* PharmacistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDBE53A82175D7330068BD12 /* PharmacistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBE53B82175D7330068BD12 /* Build configuration list for PBXNativeTarget "PharmacistUITests" */;
+			buildPhases = (
+				50C6DFD1370B3B68A4C116E9 /* [CP] Check Pods Manifest.lock */,
+				CDBE53A52175D7330068BD12 /* Sources */,
+				CDBE53A62175D7330068BD12 /* Frameworks */,
+				CDBE53A72175D7330068BD12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDBE53AB2175D7330068BD12 /* PBXTargetDependency */,
+			);
+			name = PharmacistUITests;
+			productName = PharmacistUITests;
+			productReference = CDBE53A92175D7330068BD12 /* PharmacistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDBE53822175D72D0068BD12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Aiprous;
+				TargetAttributes = {
+					CDBE53892175D72E0068BD12 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CDBE539D2175D7330068BD12 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CDBE53892175D72E0068BD12;
+					};
+					CDBE53A82175D7330068BD12 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CDBE53892175D72E0068BD12;
+					};
+				};
+			};
+			buildConfigurationList = CDBE53852175D72D0068BD12 /* Build configuration list for PBXProject "Pharmacist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDBE53812175D72D0068BD12;
+			productRefGroup = CDBE538B2175D72E0068BD12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDBE53892175D72E0068BD12 /* Pharmacist */,
+				CDBE539D2175D7330068BD12 /* PharmacistTests */,
+				CDBE53A82175D7330068BD12 /* PharmacistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBE53882175D72E0068BD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7B6C092180830500E2DFB5 /* DeliveryAddressTableCell.xib in Resources */,
+				3A7B6C022180830500E2DFB5 /* OrderItemsTableViewCell.xib in Resources */,
+				CDBE540E2175D9580068BD12 /* OpenSans-Italic.ttf in Resources */,
+				CDBE54132175D9580068BD12 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				CDBE54122175D9580068BD12 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				CDBE53982175D7320068BD12 /* LaunchScreen.storyboard in Resources */,
+				CDAC34C8217742630052A55C /* TopSellingProductsTableViewCell.xib in Resources */,
+				CDBE54112175D9580068BD12 /* OpenSans-Bold.ttf in Resources */,
+				CDBE540A2175D9580068BD12 /* fa-regular-400.ttf in Resources */,
+				CDAC34CA217742630052A55C /* TransactionListTableViewCell.xib in Resources */,
+				CDBE540D2175D9580068BD12 /* OpenSans-Light.ttf in Resources */,
+				CDBE54092175D9580068BD12 /* fa-solid-900.ttf in Resources */,
+				CDBE54D42175FD480068BD12 /* GoogleSignIn.bundle in Resources */,
+				CDBE54102175D9580068BD12 /* OpenSans-LightItalic.ttf in Resources */,
+				3A7B6C0A2180830500E2DFB5 /* AddressTableViewCell.xib in Resources */,
+				CDBE53952175D7320068BD12 /* Assets.xcassets in Resources */,
+				CDBE54142175D9580068BD12 /* OpenSans-Regular.ttf in Resources */,
+				3A7B6C0F2180833100E2DFB5 /* NotificationTableViewCell.xib in Resources */,
+				CDBE540B2175D9580068BD12 /* fa-brands-400.ttf in Resources */,
+				3AAF9C0C21817BFF003EE691 /* SellerOrdersTableViewCell.xib in Resources */,
+				CDBE541B2175D9580068BD12 /* ImageHeaderView.xib in Resources */,
+				3AAF9C0721817BAE003EE691 /* ProductsPharmacistTableViewCell.xib in Resources */,
+				CDBE540C2175D9580068BD12 /* OpenSans-Semibold.ttf in Resources */,
+				CDBE53932175D72E0068BD12 /* Main.storyboard in Resources */,
+				CDBE54152175D9580068BD12 /* OpenSans-BoldItalic.ttf in Resources */,
+				CDBE540F2175D9580068BD12 /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE539C2175D7330068BD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE53A72175D7330068BD12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		442076037D116365205A20FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PharmacistTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50C6DFD1370B3B68A4C116E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PharmacistUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85CDAB80053BE4DAC448AC25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pharmacist/Pods-Pharmacist-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pharmacist/Pods-Pharmacist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C7A044BC63A58173741F1BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pharmacist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95CA48DCD8F2F254AD929595 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pharmacist/Pods-Pharmacist-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pharmacist/Pods-Pharmacist-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDBE53862175D72E0068BD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7B6C0E2180833100E2DFB5 /* NotificationTableViewCell.swift in Sources */,
+				CDBE543C2175E6200068BD12 /* AddDeliveryBoyViewController.swift in Sources */,
+				CDBE54242175D9580068BD12 /* DesignableShadowView.swift in Sources */,
+				CDBE54342175E60F0068BD12 /* TransactionListViewController.swift in Sources */,
+				CDBE541C2175D9580068BD12 /* ImageHeaderView.swift in Sources */,
+				CDAC34C7217742630052A55C /* TopSellingProductsTableViewCell.swift in Sources */,
+				CDBE53FE2175D9580068BD12 /* Constants.swift in Sources */,
+				CDBE54192175D9580068BD12 /* SlideMenuController.swift in Sources */,
+				CDBE54392175E60F0068BD12 /* OrderDetailsProcessingItemsViewController.swift in Sources */,
+				CDBE54052175D9580068BD12 /* UIImage.swift in Sources */,
+				CDBE54E1217603740068BD12 /* SignUpModelClass.swift in Sources */,
+				CDBE54062175D9580068BD12 /* UIViewController.swift in Sources */,
+				CDBE54312175E60F0068BD12 /* PharmacistShipmentViewController.swift in Sources */,
+				CDBE54082175D9580068BD12 /* UIApplication.swift in Sources */,
+				CDBE54472175EA870068BD12 /* ForgotPasswordFromMobileNoViewController.swift in Sources */,
+				CDBE541F2175D9580068BD12 /* SubCell.swift in Sources */,
+				CDBE54182175D9580068BD12 /* AppDelegate.swift in Sources */,
+				CDAC34C9217742630052A55C /* TransactionListTableViewCell.swift in Sources */,
+				CDBE543A2175E60F0068BD12 /* PharmacistInvoiceViewController.swift in Sources */,
+				CDBE54232175D9580068BD12 /* DesignableView.swift in Sources */,
+				CDBE54172175D9580068BD12 /* BarEntry.swift in Sources */,
+				CDBE54022175D9580068BD12 /* UITableViewExtension.swift in Sources */,
+				CDBE54222175D9580068BD12 /* DesignableButton.swift in Sources */,
+				CDBE54382175E60F0068BD12 /* PharmacistDashboardViewController.swift in Sources */,
+				CDBE541E2175D9580068BD12 /* HeaderCell.swift in Sources */,
+				CDBE54012175D9580068BD12 /* UIColor.swift in Sources */,
+				CDBE54002175D9580068BD12 /* UIView.swift in Sources */,
+				CDBE54362175E60F0068BD12 /* PharmacistOrderDetailsViewController.swift in Sources */,
+				CDBE54162175D9580068BD12 /* BasicBarChart.swift in Sources */,
+				CDBE54412175E7110068BD12 /* SignUpViewController.swift in Sources */,
+				CDBE54072175D9580068BD12 /* UIImageView.swift in Sources */,
+				CDBE54042175D9580068BD12 /* String.swift in Sources */,
+				CDBE54322175E60F0068BD12 /* SellerOrderViewController.swift in Sources */,
+				CDBE54422175E7110068BD12 /* SignInViewController.swift in Sources */,
+				CDBE54332175E60F0068BD12 /* ProductsPharmacistViewController.swift in Sources */,
+				CDBE54372175E60F0068BD12 /* PageViewController.swift in Sources */,
+				CDBE541A2175D9580068BD12 /* LeftViewController.swift in Sources */,
+				CDBE54352175E60F0068BD12 /* TransationDetailViewController.swift in Sources */,
+				3A7B6C032180830500E2DFB5 /* OrderItemsTableViewCell.swift in Sources */,
+				CDBE544A2175EB460068BD12 /* NotificationViewController.swift in Sources */,
+				CDBE54302175E60F0068BD12 /* PharmacistItemOrderViewController.swift in Sources */,
+				3AAF9C0621817BAE003EE691 /* ProductsPharmacistTableViewCell.swift in Sources */,
+				CDBE54462175EA870068BD12 /* VerifyOTPViewController.swift in Sources */,
+				CDBE53FF2175D9580068BD12 /* Extension.swift in Sources */,
+				3A7B6C0B2180830500E2DFB5 /* AddressTableViewCell.swift in Sources */,
+				CDBE54482175EA870068BD12 /* SetNewPasswordViewController.swift in Sources */,
+				CDBE54032175D9580068BD12 /* CosmosDistrib.swift in Sources */,
+				3A7B6C082180830500E2DFB5 /* DeliveryAddressTableCell.swift in Sources */,
+				CDBE54212175D9580068BD12 /* DesignableImage.swift in Sources */,
+				CDBE541D2175D9580068BD12 /* ExSlideMenuController.swift in Sources */,
+				3AAF9C0B21817BFF003EE691 /* SellerOrdersTableViewCell.swift in Sources */,
+				CDBE54202175D9580068BD12 /* DesignableShadowButton.swift in Sources */,
+				CDBE54402175E7110068BD12 /* SignUpDeliveryBoyViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE539A2175D7330068BD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBE53A32175D7330068BD12 /* PharmacistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBE53A52175D7330068BD12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBE53AE2175D7330068BD12 /* PharmacistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDBE53A02175D7330068BD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBE53892175D72E0068BD12 /* Pharmacist */;
+			targetProxy = CDBE539F2175D7330068BD12 /* PBXContainerItemProxy */;
+		};
+		CDBE53AB2175D7330068BD12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDBE53892175D72E0068BD12 /* Pharmacist */;
+			targetProxy = CDBE53AA2175D7330068BD12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDBE53912175D72E0068BD12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBE53922175D72E0068BD12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDBE53962175D7320068BD12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDBE53972175D7320068BD12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDBE53B02175D7330068BD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDBE53B12175D7330068BD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDBE53B32175D7330068BD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66531C11FA9ACB665ACD27E9 /* Pods-Pharmacist.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pharmacist/GoogleSDK",
+					"$(PROJECT_DIR)/Pharmacist/FBSDK",
+				);
+				INFOPLIST_FILE = Pharmacist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.Pharmacist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDBE53B42175D7330068BD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A619F80DAA22E5EDEF67E50 /* Pods-Pharmacist.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pharmacist/GoogleSDK",
+					"$(PROJECT_DIR)/Pharmacist/FBSDK",
+				);
+				INFOPLIST_FILE = Pharmacist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.Pharmacist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDBE53B62175D7330068BD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C93F61D06CF9AA9A93D0AD /* Pods-PharmacistTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				INFOPLIST_FILE = PharmacistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.PharmacistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pharmacist.app/Pharmacist";
+			};
+			name = Debug;
+		};
+		CDBE53B72175D7330068BD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72EDDD1DA638F6A7C4EA18C /* Pods-PharmacistTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				INFOPLIST_FILE = PharmacistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.PharmacistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pharmacist.app/Pharmacist";
+			};
+			name = Release;
+		};
+		CDBE53B92175D7330068BD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B875A7DE6029A0F8710A6FD /* Pods-PharmacistUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				INFOPLIST_FILE = PharmacistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.PharmacistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pharmacist;
+			};
+			name = Debug;
+		};
+		CDBE53BA2175D7330068BD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 679C11FAC876C471409CF150 /* Pods-PharmacistUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				INFOPLIST_FILE = PharmacistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.PharmacistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pharmacist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDBE53852175D72D0068BD12 /* Build configuration list for PBXProject "Pharmacist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBE53B02175D7330068BD12 /* Debug */,
+				CDBE53B12175D7330068BD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBE53B22175D7330068BD12 /* Build configuration list for PBXNativeTarget "Pharmacist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBE53B32175D7330068BD12 /* Debug */,
+				CDBE53B42175D7330068BD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBE53B52175D7330068BD12 /* Build configuration list for PBXNativeTarget "PharmacistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBE53B62175D7330068BD12 /* Debug */,
+				CDBE53B72175D7330068BD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBE53B82175D7330068BD12 /* Build configuration list for PBXNativeTarget "PharmacistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBE53B92175D7330068BD12 /* Debug */,
+				CDBE53BA2175D7330068BD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDBE53822175D72D0068BD12 /* Project object */;
+}

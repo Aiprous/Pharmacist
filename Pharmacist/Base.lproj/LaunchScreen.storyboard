@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="A9K-KX-7nH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="dtm-Da-qKh">
+            <objects>
+                <viewController id="A9K-KX-7nH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xKP-jl-xSo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="medicobox" translatesAutoresizingMaskIntoConstraints="NO" id="Mis-ZF-Idd">
+                                <rect key="frame" x="16" y="294" width="343" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="cXE-jM-dEP"/>
+                                    <constraint firstAttribute="width" constant="343" id="sQF-jr-nee"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mis-ZF-Idd" firstAttribute="centerY" secondItem="xKP-jl-xSo" secondAttribute="centerY" id="4l5-IB-TeO"/>
+                            <constraint firstItem="Mis-ZF-Idd" firstAttribute="centerX" secondItem="xKP-jl-xSo" secondAttribute="centerX" id="ynz-y2-j1m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cxv-mQ-su0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2uO-Je-F7w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="medicobox" width="1068" height="232"/>
+    </resources>
+</document>
