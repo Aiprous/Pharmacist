@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WbP-zc-wJq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WbP-zc-wJq">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -2170,7 +2167,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gzI-lu-cYY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8512.7999999999993" y="-1936.7316341829087"/>
+            <point key="canvasLocation" x="8502" y="-1961"/>
         </scene>
         <!--Transation Detail View Controller-->
         <scene sceneID="1lX-xD-DPP">
@@ -2591,7 +2588,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lifetime Sales" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dla-Sy-cox">
-                                                                <rect key="frame" x="128.5" y="88" width="103" height="21"/>
+                                                                <rect key="frame" x="128" y="88" width="103" height="21"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="21" id="AdZ-JZ-ADG"/>
                                                                 </constraints>
@@ -2618,7 +2615,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXG-8x-kCN">
-                                                                <rect key="frame" x="128.5" y="118" width="103" height="16"/>
+                                                                <rect key="frame" x="128" y="118" width="103" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="16" id="UnY-hn-Ho3"/>
                                                                 </constraints>
@@ -3949,7 +3946,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fl9-VI-4EB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7060" y="-1937.1814092953525"/>
+            <point key="canvasLocation" x="7087" y="-1881"/>
         </scene>
         <!--Add Delivery Boy View Controller-->
         <scene sceneID="YeT-ZO-Uqj">
@@ -5192,7 +5189,7 @@
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cXB-go-VqZ">
-                                                        <rect key="frame" x="208" y="10" width="30" height="30"/>
+                                                        <rect key="frame" x="207.5" y="10" width="30" height="30"/>
                                                         <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="afo-qs-CVF"/>
@@ -5225,7 +5222,7 @@
                                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ekQ-Oo-lkN">
-                                                        <rect key="frame" x="208" y="42" width="30" height="1"/>
+                                                        <rect key="frame" x="207.5" y="42" width="30" height="1"/>
                                                         <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </view>
                                                 </subviews>
@@ -5491,11 +5488,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="downArrow_Black" width="24" height="24"/>
-        <image name="facebook" width="16" height="16"/>
-        <image name="google-plus" width="16" height="16"/>
+        <image name="downArrow_Black" width="36" height="36"/>
+        <image name="facebook" width="24" height="24"/>
+        <image name="google-plus" width="24" height="24"/>
         <image name="medicobox" width="1068" height="232"/>
-        <image name="shopping-bag" width="24" height="24"/>
+        <image name="shopping-bag" width="36" height="36"/>
         <namedColor name="BackgroundColor">
             <color red="0.84299999475479126" green="0.87800002098083496" blue="0.90600001811981201" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

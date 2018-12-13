@@ -47,7 +47,6 @@ class PharmacistDashboardViewController: UIViewController, UITableViewDelegate, 
         days = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
     }
     
-    
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         super.viewWillTransition(to: size, with: coordinator)
     }

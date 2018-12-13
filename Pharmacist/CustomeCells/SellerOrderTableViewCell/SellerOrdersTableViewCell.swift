@@ -1,15 +1,19 @@
+ //
+//  SellerOrdersTableViewCell.swift
+//  Pharmacist
 //
-//  SellerOrderTableViewCell.swift
-//  MedicoBox
-//
-//  Created by NCORD LLP on 08/10/18.
+//  Created by SBC on 25/10/18.
 //  Copyright © 2018 Aiprous. All rights reserved.
 //
 
 import UIKit
 
-class SellerOrderTableViewCell: UITableViewCell {
+class SellerOrdersTableViewCell: UITableViewCell {
 
+    
+    @IBOutlet weak var lblOrderTotal: UILabel!
+    @IBOutlet weak var btnViewDetails: DesignableButton!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
